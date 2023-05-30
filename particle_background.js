@@ -71,7 +71,6 @@ function drawParticle(array) {
 
 
 function particleMove(arra) {
-    // if (!Array.isArray(arra)) return console.log(arra); debuger
     arra.forEach(i => {
         if (i[0] > canvas.width) i[0] = 0;
         if (i[1] > canvas.height) i[1] = 0;
